@@ -51,7 +51,7 @@ SIMPLE_JWT = {
 
 # Application definition
 
-#Added crypta app, rest_framework and corsheaders
+#Added api app, rest_framework and corsheaders
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -59,7 +59,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    "crypta",
+    'api'
     'rest_framework',
     'corsheaders' 
 ]
